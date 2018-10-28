@@ -14,4 +14,8 @@
 + (instancetype)new NS_UNAVAILABLE;
 + (ServerManager*)sharedManager;
 
+- (void)loginWithLogin:(NSString *)login
+              password:(NSString *)password
+               handler:(void (^)(NSError * _Nullable error))completionHandler;
+
 @end

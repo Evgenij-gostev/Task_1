@@ -15,6 +15,7 @@
 		8C1F9E16218490160080820B /* Information.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F9E15218490160080820B /* Information.m */; };
 		8C1F9E19218493E70080820B /* InformationParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F9E18218493E70080820B /* InformationParser.m */; };
 		8C1F9E1C218494090080820B /* ServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1F9E1B218494090080820B /* ServerManager.m */; };
+		E205D6042184E3A900019702 /* Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = E205D6032184E3A900019702 /* Crypto.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,8 @@
 		8C1F9E18218493E70080820B /* InformationParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InformationParser.m; sourceTree = "<group>"; };
 		8C1F9E1A218494090080820B /* ServerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServerManager.h; sourceTree = "<group>"; };
 		8C1F9E1B218494090080820B /* ServerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServerManager.m; sourceTree = "<group>"; };
+		E205D6022184E3A900019702 /* Crypto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crypto.h; sourceTree = "<group>"; };
+		E205D6032184E3A900019702 /* Crypto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crypto.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 				8C1F9E18218493E70080820B /* InformationParser.m */,
 				8C1F9E1A218494090080820B /* ServerManager.h */,
 				8C1F9E1B218494090080820B /* ServerManager.m */,
+				E205D6022184E3A900019702 /* Crypto.h */,
+				E205D6032184E3A900019702 /* Crypto.m */,
 			);
 			path = Task_1;
 			sourceTree = "<group>";
@@ -157,6 +162,7 @@
 				8C1F9E16218490160080820B /* Information.m in Sources */,
 				8C1F9E1021845A490080820B /* LoginViewController.m in Sources */,
 				8C1F9DFA218457E10080820B /* AppDelegate.m in Sources */,
+				E205D6042184E3A900019702 /* Crypto.m in Sources */,
 				8C1F9E1C218494090080820B /* ServerManager.m in Sources */,
 				8C1F9E132184788F0080820B /* InformationViewController.m in Sources */,
 				8C1F9E19218493E70080820B /* InformationParser.m in Sources */,
@@ -284,11 +290,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Task_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.evgenijgostev.Task-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.eanton.Task-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,11 +307,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Task_1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ru.evgenijgostev.Task-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.eanton.Task-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -59,7 +59,7 @@ static NSString *URI = @"/rest/personal/ping";
 //        authenticateHeaders[@"hashalg"] = @"md5";
 //        authenticateHeaders[@"cnonce"] = @"46b7d23cb36efac10bb5662f8d673c7f";
         
-//        nc++;
+        nc++;
         
         NSString *responseString =
             [self generateResponseStringWithHeaders:authenticateHeaders
